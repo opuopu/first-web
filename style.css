@@ -1,55 +1,70 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-   
 }
-
-.first-color{
-
-color: orange;
-
-}
-
 .flexible{
     display: flex;
-    background-image: url(IMG/top-banner.png);
-    background-repeat: no-repeat;
-    margin-bottom: 50px;
-}
-.mama{
-    min-width: 50%;
-    padding-left: 5%;
+    padding-left: 7%;
 }
 
+.mama{
+    width: 50%;
+   
+}
 .mama img{
-    width: 70%;
-    
+    width: 80%;
 }
+.first-color{
 
-.button-mama{
+    color: orange;
 
-    text-decoration: none;
-    background-image: linear-gradient(tomato, orange);
-    padding: 8px 18px;
-    font-weight: 700;
+}
+.button{
+    padding: 10px 20px;
     color: white;
-}
-.mama{
-    line-height: 40px;
-}
-
-
-
-
-}
-.link2{
-
     text-decoration: none;
-    background-image: linear-gradient(tomato,orange);
-    font-weight: 700;
-    color: white;
-    padding: 8px 18px;
+    background-image: linear-gradient( orange,lightblue);
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.tuihamudi{
+    color: orange;
+}
+.salababu{
+    width: 80%;
+}
+.area{
+    box-shadow: 20px 20px 60px gray;
+    width: 40%;
+   padding-left: 20px;
+  margin-right: 10%;
+}
+.expert{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.areas{
+    border-left: 10px solid tomato;
+    margin-left: -1.5%;
+}
+.areas2{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,lightblue);
+    border-image-slice: 1;
+}
+footer p{
+    margin-top: 100px;
+    text-align: center;
+    opacity: 0.8;
 }
 p{
-    font-weight: 200;
+    opacity: 0.8;
 }
